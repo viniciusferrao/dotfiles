@@ -1,5 +1,6 @@
 #Aliases
 alias ls="exa --icons"
+alias powershell="pwsh"
 
 #Variables
 export EDITOR="/usr/bin/vim"
