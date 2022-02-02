@@ -1,5 +1,6 @@
 #Aliases
-alias ls="exa --icons"
+alias clion="open -na \"CLion.app\""
+alias ls="exa -g --icons"
 alias powershell="pwsh"
 
 #Variables
