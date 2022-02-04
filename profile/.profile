@@ -2,6 +2,8 @@
 alias clion="open -na \"CLion.app\""
 alias ls="exa -g --icons"
 alias powershell="pwsh"
+alias portup="sudo port -v selfupdate && sudo port -v upgrade outdated"
+alias brewup="brew update && brew upgrade"
 
 #Variables
 export EDITOR="/usr/bin/vim"
