@@ -9,9 +9,10 @@ alias brewup="brew update && brew upgrade"
 export EDITOR="/usr/bin/vim"
 export VISUAL="/usr/bin/vim"
 
-#Exports
+#Miscelaneous exports
 export PATH="/opt/local/bin:/opt/local/sbin:/usr/local/sbin:$PATH"
 export MANPATH="/opt/local/share/man:$MANPATH"
+export DYLD_FALLBACK_LIBRARY_PATH=/opt/local/lib
 
 #Workarround to fix ssh to Linux Machines
 export LC_ALL=en_US.UTF-8
