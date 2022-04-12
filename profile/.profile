@@ -8,6 +8,7 @@ alias brewup="brew update && brew upgrade"
 #Variables
 export EDITOR="/usr/bin/vim"
 export VISUAL="/usr/bin/vim"
+export PAGER="/usr/bin/less"
 
 #Miscelaneous exports
 export PATH="/opt/local/bin:/opt/local/sbin:/usr/local/sbin:$PATH"
