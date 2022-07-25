@@ -4,6 +4,9 @@ alias ls="exa -g --icons"
 alias powershell="pwsh"
 alias portup="sudo port -v selfupdate && sudo port -v upgrade outdated"
 alias brewup="brew update && brew upgrade"
+alias texup="sudo tlmgr update --self && sudo tlmgr update --all"
+alias zprestoup="zprezto-update"
+alias up="portup ; brewup ; texup ; zprestoup"
 
 #Variables
 export EDITOR="/usr/bin/vim"
