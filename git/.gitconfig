@@ -1,5 +1,5 @@
 [user]
-	name = Vinícius Ferrão
+	name = Vinícius Ferrão
 	email = vinicius@ferrao.net.br
 	signingkey = D1F526228990AF53
 [core]
@@ -7,3 +7,10 @@
 [commit]
 	gpgsign = true
 
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[gpg]
+	program = /usr/local/MacGPG2/bin/gpg2
